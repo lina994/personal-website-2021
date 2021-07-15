@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/personal-website-2021/static/css/main.609e448e.chunk.css",
+    "main.css": "/personal-website-2021/static/css/main.c7ae4d20.chunk.css",
     "main.js": "/personal-website-2021/static/js/main.416ab2b9.chunk.js",
     "main.js.map": "/personal-website-2021/static/js/main.416ab2b9.chunk.js.map",
     "runtime-main.js": "/personal-website-2021/static/js/runtime-main.874b4987.js",
@@ -8,7 +8,7 @@
     "static/js/2.b34eb0e4.chunk.js": "/personal-website-2021/static/js/2.b34eb0e4.chunk.js",
     "static/js/2.b34eb0e4.chunk.js.map": "/personal-website-2021/static/js/2.b34eb0e4.chunk.js.map",
     "index.html": "/personal-website-2021/index.html",
-    "static/css/main.609e448e.chunk.css.map": "/personal-website-2021/static/css/main.609e448e.chunk.css.map",
+    "static/css/main.c7ae4d20.chunk.css.map": "/personal-website-2021/static/css/main.c7ae4d20.chunk.css.map",
     "static/js/2.b34eb0e4.chunk.js.LICENSE.txt": "/personal-website-2021/static/js/2.b34eb0e4.chunk.js.LICENSE.txt",
     "static/media/ai_img.1792057b.png": "/personal-website-2021/static/media/ai_img.1792057b.png",
     "static/media/anaconda_logo.41cd9db3.png": "/personal-website-2021/static/media/anaconda_logo.41cd9db3.png",
@@ -49,7 +49,7 @@
   "entrypoints": [
     "static/js/runtime-main.874b4987.js",
     "static/js/2.b34eb0e4.chunk.js",
-    "static/css/main.609e448e.chunk.css",
+    "static/css/main.c7ae4d20.chunk.css",
     "static/js/main.416ab2b9.chunk.js"
   ]
 }
