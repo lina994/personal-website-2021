@@ -1,0 +1,25 @@
+.navbarLinks {
+  background-color: #3D3E40;
+  opacity: 90%;
+  z-index: 10;
+}
+
+@media screen and (min-width: 601px) {
+  .navbarLinks {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    text-align: right;
+  }
+} 
+
+@media screen and (max-width: 600px) {  
+  .navbarLinks {
+    float: left;
+    margin: 6px 0;
+  }
+
+  .displayNone {
+    display: none;
+  }
+}

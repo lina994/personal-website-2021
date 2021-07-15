@@ -1,0 +1,28 @@
+.skillsSection {
+  background-color: #ffa60005;
+  background-image: linear-gradient(rgba(250, 250, 250, 0.3)100%, rgba(250, 250, 250, 0.3)100%), url(../../../images/bg2.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.skillsWrapper {
+  background: rgba(250, 250, 250, 0.5); 
+  padding: 50px 10%;
+}
+
+.skillImage {
+  height: 80px;
+  width: 80px;
+  margin: 15px;
+}
+
+@media screen and (max-width: 480px) {
+  .skillImage {
+    height: 60px;
+    width: 60px;
+  }
+}

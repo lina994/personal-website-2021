@@ -1,0 +1,24 @@
+.item {
+  list-style: none;
+  margin-left: 2em;
+}
+
+/* Defines the list-item marker type */
+.item::before {
+  content: "\2022";
+  color: #fd907e;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+
+@media screen and (max-width: 480px) {
+  .courses-container h4 {
+    font-size: 16px;
+  }
+
+  .item {
+    font-size: 15px;
+  }
+}

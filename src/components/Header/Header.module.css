@@ -1,0 +1,71 @@
+.header {
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 85%;  
+  position: relative;
+}    
+
+@media screen and (max-width: 500px) {
+  .header {
+    background-image: url('../../images/bg_img_500.jpg');
+  }
+}
+@media screen and (min-width: 501px) and (max-width: 1000px) {
+  .header {
+    background-image: url('../../images/bg_img_1000.jpg');
+  }
+}
+@media screen and (min-width: 1001px) and (max-width: 2000px) {
+  .header {
+    background-image: url('../../images/bg_img_2000.jpg');
+  }
+}
+@media screen and (min-width: 2001px) {
+  .header {
+    background-image: url('../../images/brown-pendant-lamp-hanging-on-tree-near-river-772429.jpg');
+  }
+}
+
+.headerTitle {
+  position: absolute;
+  bottom: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: Georgia, serif;
+  text-shadow: 2px 2px 4px #ffffff;
+}
+
+.headerMainTitle {
+  color: #3D3E40;
+}
+
+.headerSecondTitle {
+  color: #4B4C4E;
+}
+
+@media screen and (max-width: 480px) {
+  .headerMainTitle {
+    font-size: clamp(28px, 12vw, 70px);
+  }
+  .headerSecondTitle {
+    font-size: clamp(20px, 7vw, 40px);
+  }
+}
+@media screen and (min-width: 481px) {
+  .headerMainTitle {
+    font-size: 70px;
+  }
+  .headerSecondTitle {
+    font-size: 40px;
+  }
+}
+
+
+
+

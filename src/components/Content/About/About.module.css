@@ -1,0 +1,57 @@
+.aboutSection {
+  background-color: #ffa60005;
+  min-height: 100vh;
+}
+
+.resume {
+  border: 1px solid #D4591D;
+  border-radius: 25px;
+  padding: 5px;
+  margin: 10px;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.resume a {
+  text-decoration: none;
+}
+
+.resume p {
+  display: inline;
+  padding: 10px;
+  vertical-align: top;
+  color: #D4591D;
+}
+
+.resume img {
+  height: 20px;
+  width: 20px;
+}
+
+.aboutText {
+  width: 100%;
+  max-width: 480px;
+  margin: 10px auto;
+  text-align: left;
+  font-size: 17px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.aboutContactIcons {
+  margin: 50px 0px;
+}
+
+@media screen and (max-width: 480px) {
+  .aboutText {
+    font-size: 14px;
+  }
+
+  .resume {
+    font-size: clamp(12px, 4vw, 14px);
+  }
+
+  .resume img {
+    height: 18px;
+    width: 18px;
+  }
+}

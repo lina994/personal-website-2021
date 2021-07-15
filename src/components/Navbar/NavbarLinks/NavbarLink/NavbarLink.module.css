@@ -1,0 +1,38 @@
+.inner {
+  color: white;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+.active .inner {
+  background-color: #111;
+}
+
+@media screen and (min-width: 601px) {
+  .outer {
+    display: inline-block;
+  }
+
+  .active .inner {
+    position: relative;
+  }
+
+  /* add line under active section */
+  .active .inner:after {
+    content: '';
+    left: 0;
+    width: 70%;
+    margin: 0 15%;
+    position: absolute;
+    bottom: 10px;
+    border-bottom: 1px solid #d4591d;
+  }
+
+  .outer:hover {
+    background: #111;
+  } 
+} 
+

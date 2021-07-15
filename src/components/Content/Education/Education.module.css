@@ -1,0 +1,62 @@
+.educationSection {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5)10%, rgba(255, 255, 255, 0.3)100%), url('../../../images/bgu2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 100vh;
+  background-attachment: fixed;
+}
+
+.educationFrame {
+  display: flex; /* equal height of the children */
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.educationContent {
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.06);
+  width: 40%;
+  max-width: 400px;
+  text-align: left;
+  display: inline-block;
+  margin: 3% 5%;
+  padding: 3%;
+  padding-top: 0;
+}
+
+.educationContent img {
+  display: block;
+  max-width: 100%;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 900px) {
+  .educationContent {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .educationContent {
+    margin: 3% 0%;
+    padding: 5%;
+    width: 100%;
+  }
+
+  .educationContent h3{
+    font-size: 17px;
+  }
+
+  .educationContent p{
+    font-size: 15px;
+  }
+}
+
+
+
+

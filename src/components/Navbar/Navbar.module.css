@@ -1,0 +1,14 @@
+.navbarWrapper{
+  z-index: 10;
+}
+
+@media screen and (max-width: 600px) {  
+  .navbarWrapper {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    text-align: left;
+    display: block;
+  }
+}
+
