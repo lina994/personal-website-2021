@@ -33,6 +33,9 @@ import portfolioImg from './images/projects/portfolioImg.png';
 import booksImg from './images/projects/books.jpg';
 import rayTracingImg from './images/projects/rayTracingImg.png';
 import cardsImg from './images/projects/cards.jpg';
+import arcadesImg from './images/projects/arcade.png';
+import cafeImg from './images/projects/cafe.png';
+import shoesImg from './images/projects/shoes.png';
 
 
 const headerInfo = {
@@ -42,7 +45,7 @@ const headerInfo = {
 
 const about = {
   cv: {
-    link: 'https://drive.google.com/file/d/1PybUccZU6lRJNFYrUr-6-rGi_NnyvAGh/view?usp=sharing',
+    link: 'https://drive.google.com/file/d/1z8fT2dJlEIq6Ta_Igesh9aFaFVZ32A6q/view?usp=sharing',
     icon: downloadIcon
   },
   text: [
@@ -141,16 +144,18 @@ const portfolio = {
   projects: [
     {
       name: 'Personal site',
-      skills: ['Web', 'ReactJS', 'HTML', 'CSS', 'JavaScript'],
+      skills: ['Web', 'ReactJS', 'HTML5', 'CSS3', 'JavaScript'],
       description: `My portfolio.`,
       photo: portfolioImg,
-      link: 'https://github.com/lina994'
+      linkTo: `GitHub`,
+      link: 'https://github.com/lina994/personal-website-2021'
     },
     {
       name: 'Library management system',
       skills: ['Java', 'SQL', 'MySQL'],
       description: `Library management system (MySQL).`,
       photo: booksImg,
+      linkTo: `GitHub`,
       link: 'https://github.com/lina994/LibraryManagementSystem'
     },
     {
@@ -159,6 +164,7 @@ const portfolio = {
       description: `enerating an image by tracing the path of light through pixels in an image plane and 
     simulating the effects of its encounters with virtual objects.`,
       photo: rayTracingImg,
+      linkTo: `GitHub`,
       link: 'https://github.com/lina994/Ray-Tracing'
     },
     {
@@ -166,6 +172,7 @@ const portfolio = {
       skills: ['C++'],
       description: `Card game.`,
       photo: cardsImg,
+      linkTo: `GitHub`,
       link: 'https://github.com/lina994/spl171'
     },
     {
@@ -173,6 +180,7 @@ const portfolio = {
       skills: ['Python', 'Reinforcement Learning', 'Neural Networks'],
       description: `Implementation of Deep Q-Network (DQN) to train an agent to play Atari Pong game from OpenAI Gym.`,
       photo: pongImg,
+      linkTo: `GitHub`,
       link: 'https://github.com/lina994/Topics-in-reinforcement-learning'
     },
     {
@@ -181,6 +189,7 @@ const portfolio = {
       description: `Construction of an environment simulator that runs a path optimization problem on a 
     weighted undirected graph and solving it using simple agents and search agents.`,
       photo: aiImg,
+      linkTo: `GitHub`,
       link: 'https://github.com/lina994/AI_Ass1'
     },
     {
@@ -189,6 +198,7 @@ const portfolio = {
       description: `Construction of an environment simulator that runs a path optimization problem on a 
     weighted undirected graph and solving it using game tree search agents.`,
       photo: aiImg,
+      linkTo: `GitHub`,
       link: 'https://github.com/lina994/AI_Ass2'
     },
     {
@@ -197,6 +207,7 @@ const portfolio = {
       description: `Probabilistic reasoning using Bayes networks, with scenarios similar to the hurricane 
     evacuation problem environmen.`,
       photo: aiImg,
+      linkTo: `GitHub`,
       link: 'https://github.com/lina994/AI_Ass4'
     },
     {
@@ -204,7 +215,32 @@ const portfolio = {
       skills: ['Java', 'Artificial Intelligence'],
       description: `Sequential decision making under uncertainty using belief-state MDP for decision-making.`,
       photo: aiImg,
+      linkTo: `GitHub`,
       link: 'https://github.com/lina994/AI_Ass5'
+    },
+    {
+      name: 'Arcade Life - CodePen',
+      skills: ['Web', 'HTML5', 'CSS3'],
+      description: `Magazine Layout (June 2021 #CodePenChallenge)`,
+      photo: arcadesImg,
+      linkTo: `CodePen`,
+      link: 'https://codepen.io/lina994/full/eYvazaK'
+    },
+    {
+      name: 'The Cascade Cafe',
+      skills: ['Web', 'HTML5', 'CSS3'],
+      description: `Menu Layout (June 2021 #CodePenChallenge)`,
+      photo: cafeImg,
+      linkTo: `CodePen`,
+      link: 'https://codepen.io/lina994/full/MWmKyMm'
+    },
+    {
+      name: 'LikeNuShus',
+      skills: ['Web', 'HTML5', 'CSS3'],
+      description: `Shopping Layout (June 2021 #CodePenChallenge)`,
+      photo: shoesImg,
+      linkTo: `CodePen`,
+      link: 'https://codepen.io/lina994/full/xxqmwJV'
     }
   ]
 };

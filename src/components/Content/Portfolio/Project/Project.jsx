@@ -15,7 +15,7 @@ function Project(props) {
         <div>{skills}</div>
         <p>{props.description}</p>
         <div className={s.githubLink}>
-          <a href={props.link} target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href={props.link} target="_blank" rel="noopener noreferrer">{props.linkTo}</a>
         </div>
       </div>
     </div>

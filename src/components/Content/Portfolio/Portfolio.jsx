@@ -37,6 +37,7 @@ function Portfolio(props) {
       skills={project.skills}
       description={project.description}
       photo={project.photo}
+      linkTo={project.linkTo}
       link={project.link}
       projRef={projRef} />
   });
