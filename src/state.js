@@ -17,11 +17,13 @@ import cppLogo from './images/progIcon/cpp_logo.png';
 import cLogo from './images/progIcon/c_logo.png';
 import htmlLogo from './images/progIcon/html5_logo.svg';
 import cssLogo from './images/progIcon/css3_logo.svg';
+import muiLogo from './images/progIcon/material_ui_logo.png';
 import javaScriptLogo from './images/progIcon/javascript_logo.svg';
 import typeScriptLogo from './images/progIcon/typescript_logo.svg';
 import reactJSLogo from './images/progIcon/react_logo.png';
 import reduxLogo from './images/progIcon/redux_logo.png';
 import nodejsLogo from './images/progIcon/nodejs_logo.png';
+import nestLogo from './images/progIcon/nest.png';
 import mySqlLogo from './images/progIcon/mysql_logo.png';
 import sqliteLogo from './images/progIcon/sqlite_logo.png';
 import anacondaLogo from './images/progIcon/anaconda_logo.png';
@@ -154,12 +156,14 @@ const experience = [
 
 const skills = [
   { name: 'Node.js', icon: nodejsLogo },
+  { name: 'NestJS', icon: nestLogo },
   { name: 'JavaScript', icon: javaScriptLogo },
   { name: 'TypeScript', icon: typeScriptLogo },
   { name: 'ReactJS', icon: reactJSLogo },
   { name: 'Redux', icon: reduxLogo },
   { name: 'HTML5', icon: htmlLogo },
   { name: 'CSS3', icon: cssLogo },
+  { name: 'MaterialUI', icon: muiLogo },
   { name: 'MySQL', icon: mySqlLogo },
   { name: 'SQlite', icon: sqliteLogo },
   { name: 'Java', icon: javaLogo },
