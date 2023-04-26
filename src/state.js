@@ -7,6 +7,9 @@ import emailIcon from './images/contactIcon/email.svg';
 
 import bguLogo from './images/logo_bgu.png';
 import sheCodesLogo from './images/logo_she_codes.png';
+import waveAcademyLogo from './images/wave_logo.png';
+
+import cymbioLogo from './images/cymbio_logo.png';
 
 import javaLogo from './images/progIcon/java_logo.svg';
 import pythonLogo from './images/progIcon/python_logo.svg';
@@ -14,17 +17,16 @@ import cppLogo from './images/progIcon/cpp_logo.png';
 import cLogo from './images/progIcon/c_logo.png';
 import htmlLogo from './images/progIcon/html5_logo.svg';
 import cssLogo from './images/progIcon/css3_logo.svg';
+import muiLogo from './images/progIcon/material_ui_logo.png';
 import javaScriptLogo from './images/progIcon/javascript_logo.svg';
 import typeScriptLogo from './images/progIcon/typescript_logo.svg';
 import reactJSLogo from './images/progIcon/react_logo.png';
 import reduxLogo from './images/progIcon/redux_logo.png';
 import nodejsLogo from './images/progIcon/nodejs_logo.png';
+import nestLogo from './images/progIcon/nest.png';
 import mySqlLogo from './images/progIcon/mysql_logo.png';
 import sqliteLogo from './images/progIcon/sqlite_logo.png';
 import anacondaLogo from './images/progIcon/anaconda_logo.png';
-import mavenLogo from './images/progIcon/maven_logo.png';
-import jsonLogo from './images/progIcon/json_logo.png';
-import junitLogo from './images/progIcon/junit_logo.png';
 import gitLogo from './images/progIcon/git_logo.png';
 
 import aiImg from './images/projects/ai_img.png';
@@ -40,7 +42,7 @@ import shoesImg from './images/projects/shoes.png';
 
 const headerInfo = {
   name: 'Alina Gafarov',
-  title: 'Software Developer'
+  title: 'Backend Developer'
 };
 
 const about = {
@@ -48,12 +50,18 @@ const about = {
     link: 'https://drive.google.com/file/d/1z8fT2dJlEIq6Ta_Igesh9aFaFVZ32A6q/view?usp=sharing',
     icon: downloadIcon
   },
-  text: [
-    "Hey! I'm Alina, a Computer Science graduate (B.Sc) of Ben-Gurion University.",
-    "In addition, I participated in web track of She Codes Program.",
-    "Currently I looking for junior position as a software developer in HaDarom/ HaMerkaz areas.",
-    "Feel free to email me at g94lina@gmail.com."
-  ],
+  text: `Hey! My name is Alina,\n
+  I am a highly motivated NodeJS backend developer with a strong passion for software development. 
+  Throughout my one year of experience at Cymbio, I had the opportunity to work on various projects 
+  and gained valuable knowledge and expertise in developing and maintaining applications using NodeJS 
+  and ReactJS. \n 
+  I hold a Bachelor's degree in Computer Science (B.Sc) from Ben-Gurion University, and my academic 
+  and professional journey has shaped my interest and passion for software development. 
+  I am always eager to learn new technologies and programming languages to enhance my skills and 
+  stay updated with the latest industry trends.\n
+  Currently I looking for position as a Backend / Fullstack developer in HaDarom/ HaMerkaz areas.
+  Feel free to email me at g94lina@gmail.com.
+  `,
   contacts: [
     {
       name: 'linkedin',
@@ -114,27 +122,55 @@ const education = {
         courses: ["HTML5", "CSS3", "JavaScript"]
       }
     ]
+  },
+  waveAcademy: {
+    title: "Wave Academy",
+    icon: waveAcademyLogo,
+    courses: [
+      {
+        category: 'Web',
+        courses: ["JavaScript", "TypeScript", "NodeJS", "ExpressJS", "NestJS", "MySQL", "MongoDB", "Jest", "Socket.IO"], 
+      }
+    ]
   }
 };
 
+const experience = [
+  {
+    company: 'Cymbio',
+    title: 'Backend developer',
+    icon: cymbioLogo,
+    alt: 'Cymbio logo',
+    years: '2022-2023',
+    description: [
+      "Developed and maintained RESTful APIs using Node.js, TypeScript, and Express.js.",
+      "Frontend development using React, Redux, React Hooks, and Material-UI.",
+      "Worked with multiple databases including MySQL, DynamoDB, Redis, and MongoDB.",
+      "Experience writing and running automated tests including unit and mocks using Jest.",
+      "Worked with Jira to track issues, bugs, and project progress.",
+      "Software development experience using Node.js, TypeScript and React development.",
+      "Experience with RabbitMQ",
+    ],
+  }
+];
+
 const skills = [
-  { name: 'Java', icon: javaLogo },
-  { name: 'Python', icon: pythonLogo },
-  { name: 'C++', icon: cppLogo },
-  { name: 'C', icon: cLogo },
-  { name: 'HTML5', icon: htmlLogo },
-  { name: 'CSS3', icon: cssLogo },
+  { name: 'Node.js', icon: nodejsLogo },
+  { name: 'NestJS', icon: nestLogo },
   { name: 'JavaScript', icon: javaScriptLogo },
   { name: 'TypeScript', icon: typeScriptLogo },
   { name: 'ReactJS', icon: reactJSLogo },
   { name: 'Redux', icon: reduxLogo },
-  { name: 'Node.js', icon: nodejsLogo },
-  { name: 'Anaconda ', icon: anacondaLogo },
+  { name: 'HTML5', icon: htmlLogo },
+  { name: 'CSS3', icon: cssLogo },
+  { name: 'MaterialUI', icon: muiLogo },
   { name: 'MySQL', icon: mySqlLogo },
   { name: 'SQlite', icon: sqliteLogo },
-  { name: 'Maven', icon: mavenLogo },
-  { name: 'JSON', icon: jsonLogo },
-  { name: 'JUnit', icon: junitLogo },
+  { name: 'Java', icon: javaLogo },
+  { name: 'Python', icon: pythonLogo },
+  { name: 'C++', icon: cppLogo },
+  { name: 'C', icon: cLogo },
+  { name: 'Anaconda ', icon: anacondaLogo },
   { name: 'Git', icon: gitLogo },
 ];
 
@@ -247,6 +283,7 @@ const portfolio = {
 
 const contentInfo = {
   about: about,
+  experience: experience,
   skills: skills,
   portfolio: portfolio,
   education: education
