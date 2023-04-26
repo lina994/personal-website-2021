@@ -1,5 +1,4 @@
 import React from 'react';
-
 import s from './NavbarLinks.module.css';
 import NavbarLink from './NavbarLink/NavbarLink';
 
@@ -15,6 +14,7 @@ function NavbarLinks(props) {
       <NavbarLink target={'header'} linkName={'Home'}/>
       <NavbarLink target={'about'} linkName={'About'}/>
       <NavbarLink target={'education'} linkName={'Education'}/>
+      <NavbarLink target={'experience'} linkName={'Experience'}/>
       <NavbarLink target={'skills'} linkName={'Skills'}/>
       <NavbarLink target={'portfolio'} linkName={'Portfolio'}/>
       <NavbarLink target={'contact'} linkName={'Contact'}/>
@@ -24,4 +24,3 @@ function NavbarLinks(props) {
 }
 
 export default NavbarLinks;
-

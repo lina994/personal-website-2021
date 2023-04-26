@@ -9,6 +9,8 @@ import bguLogo from './images/logo_bgu.png';
 import sheCodesLogo from './images/logo_she_codes.png';
 import waveAcademyLogo from './images/wave_logo.png';
 
+import cymbioLogo from './images/cymbio_logo.png';
+
 import javaLogo from './images/progIcon/java_logo.svg';
 import pythonLogo from './images/progIcon/python_logo.svg';
 import cppLogo from './images/progIcon/cpp_logo.png';
@@ -23,9 +25,6 @@ import nodejsLogo from './images/progIcon/nodejs_logo.png';
 import mySqlLogo from './images/progIcon/mysql_logo.png';
 import sqliteLogo from './images/progIcon/sqlite_logo.png';
 import anacondaLogo from './images/progIcon/anaconda_logo.png';
-import mavenLogo from './images/progIcon/maven_logo.png';
-import jsonLogo from './images/progIcon/json_logo.png';
-import junitLogo from './images/progIcon/junit_logo.png';
 import gitLogo from './images/progIcon/git_logo.png';
 
 import aiImg from './images/projects/ai_img.png';
@@ -133,6 +132,25 @@ const education = {
     ]
   }
 };
+
+const experience = [
+  {
+    company: 'Cymbio',
+    title: 'Backend developer',
+    icon: cymbioLogo,
+    alt: 'Cymbio logo',
+    years: '2022-2023',
+    description: [
+      "Developed and maintained RESTful APIs using Node.js, TypeScript, and Express.js.",
+      "Frontend development using React, Redux, React Hooks, and Material-UI.",
+      "Worked with multiple databases including MySQL, DynamoDB, Redis, and MongoDB.",
+      "Experience writing and running automated tests including unit and mocks using Jest.",
+      "Worked with Jira to track issues, bugs, and project progress.",
+      "Software development experience using Node.js, TypeScript and React development.",
+      "Experience with RabbitMQ",
+    ],
+  }
+];
 
 const skills = [
   { name: 'Node.js', icon: nodejsLogo },
@@ -261,6 +279,7 @@ const portfolio = {
 
 const contentInfo = {
   about: about,
+  experience: experience,
   skills: skills,
   portfolio: portfolio,
   education: education
