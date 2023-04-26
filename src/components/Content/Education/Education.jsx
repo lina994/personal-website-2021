@@ -10,6 +10,9 @@ function Education(props) {
   const listItemsSheCodes = props.state.sheCodes.courses.map((item, index) =>
     <CoursesList key={index} name={"Topics"} courses={item.courses} />
   );
+  const listItemsWaveAcademy = props.state.waveAcademy.courses.map((item, index) =>
+    <CoursesList key={index} name={"Topics"} courses={item.courses} />
+  );
 
   return (
     <section id="education" className={s.educationSection}>
@@ -37,6 +40,14 @@ function Education(props) {
           </div>
           <h3>{props.state.sheCodes.title}</h3>
           {listItemsSheCodes}
+        </div>
+
+        <div className={s.educationContent}>
+          <div>
+            <img src={props.state.waveAcademy.icon} alt="Ben Gurion University logo" />
+          </div>
+          <h3>{props.state.waveAcademy.title}</h3>
+          {listItemsWaveAcademy}
         </div>
       </div>
     </section>

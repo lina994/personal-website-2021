@@ -4,7 +4,7 @@ import s from './About.module.css';
 import ContactIcon from './ContactIcon/ContactIcon';
 
 function About(props) {
-  let aboutMeInfo = props.state.text.map((line, index)=><div key={index}>{line}<br/></div>);
+  let aboutMeInfo = props.state.text.split('\n').map((line, index)=><div key={index}>{line}<br/></div>);
 
   let contactIcons = props.state.contacts.map((contact, index)=>{
     return <ContactIcon key={index} name={contact.name} link={contact.link} icon={contact.icon} />
